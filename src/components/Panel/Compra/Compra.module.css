@@ -1,0 +1,35 @@
+input{
+    margin-top: 1rem;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 1rem;
+}
+.exit{
+    margin-left: 1rem;
+}
+
+.inputContainer{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(95, 107, 119);
+    border-radius: 0.7rem;
+    width: auto;
+    padding: 0.5rem ;
+    height: auto ;
+}
+
+button:hover{
+    background-color: silver;
+    color: black;
+    transition: 0.6s;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.flex{
+    display: flex ;
+}
+.end{
+    margin-right: 0%;
+    align-self: start;
+}
