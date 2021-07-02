@@ -11,11 +11,9 @@ function Compra({redirectToDescription}) {
         email: "",
         prize: ""
     })
-    console.log(properties);
     const handleSubmit = (e)=>{
         const {name, phone, email, prize} = input;
         e.preventDefault();
-        console.log(input);
         if(name && phone && email && prize ) {
             axios.post('http://localhost:4100/propertysales', {...input, ...properties}).
             then(()=> setSuccess(true));
