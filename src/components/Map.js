@@ -89,8 +89,6 @@ function Map(props) {
 			});
 		});
 	}, []);
-	console.log("Parcel info: ", properties)
-	console.log("PanelActive", booleanDrawer)
 	return (
 	<div className={style.flex}>
     	<div ref={mapContainer} style={mapContainerStyle}></div>
